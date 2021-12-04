@@ -1,0 +1,9 @@
+{
+  "extends": ["wesbos/typescript"],
+  "ignorePatterns": ["**/gatsby-*.js", "**/*.config.js", "graphql-types.ts"],
+  "rules": {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["**/*.test.*", "**/*.spec.*"] }]
+  }
+}

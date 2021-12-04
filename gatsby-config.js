@@ -3,5 +3,8 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Gatsby Typescript Tailwind",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-graphql-codegen`,
+    `gatsby-plugin-postcss`
+  ],
 };
